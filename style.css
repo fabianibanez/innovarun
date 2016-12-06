@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,800');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	line-height: 150%;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+h1 {
+	font-weight: 300;
+}
+
+body {
+	background: #fff;
+	font-size: 90%;
+	font-family: 'Raleway', sans-serif;
+}
+
+header {
+	width: 100%;
+	padding: 15% 0;
+	background: url('images/playa.jpg');
+	-webkit-transform: skewY(5deg);
+	-ms-transform: skewY(5deg);
+	-o-transform: skewY(5deg);
+	transform: skewY(5deg);
+	margin-top: -5rem;
+	text-align: center;
+}
+
+header content {
+	-webkit-transform: skewY(-5deg);
+	-ms-transform: skewY(-5deg);
+	-o-transform: skewY(-5deg);
+	transform: skewY(-5deg);
+}
+
+header ul li {
+	display: inline-block;
+	padding: 1% 5%;
+	border-radius: 3px;
+	color: #fff;
+	font-weight: 800;
+}
+
+header ul li:first-of-type {
+	background: #17dda4;
+	box-shadow: 1px 1px #bc6d9e;
+}
+
+header ul li:last-of-type {
+	background: #bc6d9e;
+	box-shadow: 1px 1px #17dda4;
+}
+
+section {
+	width: 100%;
+	padding: 3% 0;
+}
+
+section:nth-of-type(2) {
+	-webkit-transform: skewY(-5deg);
+	-ms-transform: skewY(-5deg);
+	-o-transform: skewY(-5deg);
+	transform: skewY(-5deg);
+	background: #17dda4;
+}
+
+section:nth-of-type(2) content {
+	-webkit-transform: skewY(5deg);
+	-ms-transform: skewY(5deg);
+	-o-transform: skewY(5deg);
+	transform: skewY(5deg);
+}
+
+section:nth-of-type(4) {
+	background: #012A36;
+	color: #ccc;
+}
+
+section ul {
+	text-align: center;
+}
+
+section ul li {
+	display: inline-block;
+}
+
+article {
+	width: 50%;
+	float: left;
+	padding: 3%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+content {
+	max-width: 70%;
+	margin: 0 auto;
+	display: block;
+}
+
+content::before, content::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+svg {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+aside {
+	background: #17dda4;
+	padding: 2% 0;
+}
+
+footer {
+	width: 100%;
+	background: #012A36;
+	padding: 2% 0;
+	border-top: 1px solid #ccc;
+}
